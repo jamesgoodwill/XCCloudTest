@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import XCCloudTest
+@testable import XCCloudTestJGG
 
 final class XCCloudTestTests: XCTestCase {
 
