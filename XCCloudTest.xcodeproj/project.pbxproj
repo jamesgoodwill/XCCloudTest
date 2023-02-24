@@ -32,6 +32,8 @@
 		4130D94829A58D9400CD2C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4130D94E29A58D9400CD2C6F /* XCCloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCCloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4130D95229A58D9400CD2C6F /* XCCloudTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCCloudTestTests.swift; sourceTree = "<group>"; };
+		41ADF7F329A83C7C00254E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41ADF7F429A83CF300254E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		4130D94029A58D8A00CD2C6F /* XCCloudTest */ = {
 			isa = PBXGroup;
 			children = (
+				41ADF7F429A83CF300254E63 /* Info.plist */,
 				4130D94129A58D8A00CD2C6F /* XCCloudTestApp.swift */,
 				4130D94329A58D8A00CD2C6F /* ContentView.swift */,
 				4130D94529A58D9400CD2C6F /* Assets.xcassets */,
@@ -92,6 +95,7 @@
 		4130D95129A58D9400CD2C6F /* XCCloudTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				41ADF7F329A83C7C00254E63 /* Info.plist */,
 				4130D95229A58D9400CD2C6F /* XCCloudTestTests.swift */,
 			);
 			path = XCCloudTestTests;
@@ -346,6 +350,8 @@
 				DEVELOPMENT_TEAM = DT9PE58AY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCCloudTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "ITSAppUsesNonExemptEncryption ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +381,8 @@
 				DEVELOPMENT_TEAM = DT9PE58AY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCCloudTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "ITSAppUsesNonExemptEncryption ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,6 +410,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DT9PE58AY2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCCloudTestTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gs.XCCloudTestTests;
@@ -422,6 +432,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DT9PE58AY2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCCloudTestTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gs.XCCloudTestTests;
